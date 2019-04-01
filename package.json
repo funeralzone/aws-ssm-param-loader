@@ -1,0 +1,11 @@
+{
+  "name": "aws-ssm-param-loader",
+  "description": "Load SSM Parameters and store them as environment variables",
+  "author": "James Sanders",
+  "devDependencies": {
+    "aws-sdk": "^2.97.0"
+  },
+  "dependencies": {
+    "co": "^4.6.0"
+  }
+}
