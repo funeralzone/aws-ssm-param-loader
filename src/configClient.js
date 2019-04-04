@@ -104,6 +104,4 @@ function load (keys, cacheLifetimeInMilliseconds) {
     return config;
 }
 
-module.exports = {
-    loadConfigs
-};
+module.exports = load;
