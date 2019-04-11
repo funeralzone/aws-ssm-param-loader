@@ -1,11 +1,14 @@
 {
   "name": "aws-ssm-param-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "James Sanders",
+  "contributors": [
+    "Michael Gane"
+  ],
   "devDependencies": {
     "aws-sdk": "^2.97.0"
   },
-  "dependencies": {
-    "co": "^4.6.0"
+  "engines": {
+    "node": ">=8.0.0"
   }
 }
