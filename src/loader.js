@@ -1,7 +1,7 @@
 const AWS = require('aws-sdk');
 const ssm = new AWS.SSM();
 
-const load = async (keys, ssmPrefix) => {
+exports.load = async (keys, ssmPrefix) => {
 
     const validateParams = (keys, params) => {
         const missing = keys.filter(k => params[k] === undefined);
@@ -33,5 +33,3 @@ const load = async (keys, ssmPrefix) => {
 
     return result;
 };
-
-export default load;
